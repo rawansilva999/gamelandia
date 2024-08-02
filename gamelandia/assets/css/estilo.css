@@ -1,0 +1,51 @@
+*{
+    font-family: 'Poppins';font-size: 15px;
+}
+
+.frame_responsivo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    display: block;
+} 
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.containerGL{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    background-color: rgb(206, 201, 201);
+    text-align: center;
+    width: auto;
+    border-radius: 5%;
+}
+
+.cabeca_containerForm{
+    background-color: black;
+    color: white;
+    width: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
